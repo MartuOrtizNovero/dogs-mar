@@ -1,0 +1,35 @@
+.container {
+    margin: 0px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 3px solid rgb(71, 55, 33);
+    width: 50%;
+    margin-left: 350px;
+}
+
+
+.boton_home {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-weight: 400;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.boton_home:hover {
+    color: white;
+    background: #9e2a2b;
+}
+
+.name1{
+    font-size: 25px;
+    color: rgb(201, 148, 175);
+}
+
+.right{
+    font-size: 15px;
+}

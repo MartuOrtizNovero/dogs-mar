@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: Landing;
+    src: url(./letra/IndieFlower-Regular.ttf);
+  } 
+
+.botonh {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-weight: 400;
+    background: black;
+    margin-bottom: 10px;
+    font-family: Landing;
+}
+
+.botonh:hover {
+    color: white;
+    background: #9e2a2b;
+}
+
+.botonCreate{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-weight: 400;
+    background: black;
+    margin-bottom: 10px;
+    font-family: Landing;
+    font-size: 20px;
+}
+
+.botonCreate:hover{
+    color: white;
+    background: green;
+}
+
+.error{
+    color : red
+}

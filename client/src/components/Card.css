@@ -1,0 +1,53 @@
+.card{
+    width: 110%;
+    height: 500px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    border: 3px solid rgb(71, 55, 33);
+    margin-top: 30px;
+}
+
+.weight{
+    font-size: 19px;
+}
+
+.name{
+    font-size: 30px;
+    color: rgb(201, 148, 175);
+}
+.temp{
+    font-size: 22px;
+}
+
+
+.readmore{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-weight: 400;
+    background: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.readmore:hover {
+    color: white;
+    background: #9e2a2b;
+}
+
+.imagen{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.cardDelete{
+    margin-left: 5px;
+    background-color: #9e2a2b;
+    border-radius: 3px;
+}

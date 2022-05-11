@@ -1,0 +1,36 @@
+input {
+    padding: 6px;
+    border-radius: 3px;
+    border-color: black;
+    background: white;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: Landing;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.botonSearch {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px black;
+    background: black;
+    border-color:black;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Landing;
+
+}
+
+.botonSearch:hover {
+    color:black; ;
+    background: white;
+    border-color:black;
+    
+}
+

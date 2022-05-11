@@ -23,10 +23,10 @@ module.exports = (sequelize) => {
       allowNull: false
     },
     years: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     image: {
-      type: DataTypes.STRING
+      type: DataTypes.TEXT,
     },
     createdInDb: {
       type: DataTypes.BOOLEAN,

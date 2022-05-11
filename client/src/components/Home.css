@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: Landing;
+    src: url(./letra/IndieFlower-Regular.ttf);
+  } 
+
+.body {
+    background-color: white;
+}
+
+.todo {
+    margin: 0px;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10%;
+    color: black;
+    background-color: #C994af;
+}
+
+.order{
+    background-color: black;
+    color: white;
+    font-family: Landing;
+    font-size: 15px;
+}
+
+.linkCreate {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    background: black;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.linkCreate:hover {
+    color: black;
+    background: white;
+}
+
+.linkCreate:visited {
+    color: none;
+}
+
+.botonReload {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    background: black;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Landing;
+}
+
+.botonReload:hover {
+    color: black;
+    background: white;
+}
+
+.loading_title {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 125%;
+}
+
+
+.filtros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 10px;
+}
+
+
+select {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.cards{
+    list-style: none;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 340px);
+    gap:4re;
+    justify-content: center;
+}
+
+.loading{
+    margin-left: 90%;
+    top: 5px;
+}
